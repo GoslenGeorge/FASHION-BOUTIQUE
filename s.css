@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+}
+.navbar .fashion a{
+    font-size: 2.5rem;
+    color:white;
+    text-decoration: none;
+}
+.nav-links{
+    list-style: none;
+    display : flex ;
+    gap :  2rem ;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+}
+.nav-links li a:hover{
+    color: rgb(219, 133, 193);
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+.pc{
+    margin: 30px;
+    display: flex;
+    gap:.5rem ;
+}
+.pc2{
+    margin: 30px;
+    display: flex;
+    gap:2.5rem ;
+}
+.pc1{
+    margin: 30px;
+    display: flex;
+    gap:2.5rem ;
+}
+footer{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+#bd1{
+    border: none;
+    border-radius: 7px;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+   background-color:rgb(219, 133, 193);
+    color: black;
+    cursor: pointer;
+    transition:background-color .6s ;
+}
+#bd1:hover{
+    background-color: white;
+
+}
+
+
+
+
